@@ -13,16 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
+title: 'TMA36 project: Investigating early lung adenocarcinoma behavior through the integration of multiple datasets'
+email: mariafernanda.senosain@vanderbilt.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+  This site is hosting all the information related to the TMA36 project and associated datasets.
+#twitter_username: username
+github_username: msenosain
+minimal_mistakes_skin: "contrast"
 search: true
+github: [metadata]
 
 # Build settings
 markdown: kramdown
@@ -58,9 +57,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Mafe Senosain"
+  avatar : "/assets/images/Senosain_Mafe.jpg"
+  bio    : "PhD Candidate in Cancer Biology @ Vanderbilt University in the Massion Lab"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
