@@ -14,42 +14,43 @@ title: "Datasets documentation"
 ## **CyTOF** <a name="cytof"></a>
 1. **General info:** Mass Cytometry or CyTOF is a variation of flow cytometry in which antibodies are labeled with heavy metal ion tags rather than fluorochromes. Our antibody panel include the following protein markers:
 
-|    <br>Antigen           |    <br>Isotope    |    <br>Working conc (ug/ml)    |    <br>Dilution    |    <br>Vol in 100 ul rx    |    <br>Level    |    <br>Clone         |    <br>Source       |    <br>Catalog #    |
-|--------------------------|-------------------|--------------------------------|--------------------|----------------------------|-----------------|----------------------|---------------------|---------------------|
-|    <br>EpCAM             |    <br>141-Pr     |    <br>                        |    <br>1:1600      |    <br>0.0625              |    <br>S        |    <br>9C4           |    <br>Fluidigm     |    <br>3141006B     |
-|    <br>c caspase3        |    <br>142-Nd     |    <br>                        |    <br>1:400       |    <br>0.25                |    <br>I        |    <br>D3E9          |    <br>Fluidigm     |    <br>3142004A     |
-|    <br>* TP53            |    <br>143-Nd     |    <br>50                      |    <br>1:200       |    <br>0.25                |    <br>I        |    <br>DO-7          |    <br>Biolegend    |    <br>645802       |
-|    <br>HLA-ABC           |    <br>144-Nd     |    <br>                        |    <br>1:800       |    <br>0.125               |    <br>S        |    <br>W6/32         |    <br>Fluidigm     |    <br>3144017B     |
-|    <br>CD31              |    <br>145-Nd     |    <br>                        |    <br>1:200       |    <br>0.5                 |    <br>S        |    <br>WM59          |    <br>Fluidigm     |    <br>3145004B     |
-|    <br>Thioredoxin       |    <br>146-Nd     |    <br>                        |    <br>1:800       |    <br>0.125               |    <br>I        |    <br>2G11/TRX      |    <br>Fluidigm     |    <br>3146016B     |
-|    <br>b-CAT             |    <br>147-Sm     |    <br>                        |    <br>1:800       |    <br>0.125               |    <br>I        |    <br>D10A8         |    <br>Fluidigm     |    <br>3147005A     |
-|    <br>HER2              |    <br>148Nd      |    <br>                        |    <br>1:400       |    <br>0.25                |    <br>S        |    <br>29D8          |    <br>Fluidigm     |    <br>3148011A     |
-|    <br>p-STAT6           |    <br>149-Sm     |    <br>                        |    <br>1:200       |    <br>0.5                 |    <br>I        |    <br>18/P-Stat6    |    <br>Fluidigm     |    <br>3149004A     |
-|    <br>p-stat5           |    <br>150-Nd     |    <br>                        |    <br>1:200       |    <br>0.5                 |    <br>I        |    <br>Y694          |    <br>Fluidigm     |    <br>3150005A     |
-|    <br>* TTF1            |    <br>151-Eu     |    <br>100                     |    <br>1:200       |    <br>0.5                 |    <br>I        |    <br>D2E8          |    <br>CST          |    <br>12373        |
-|    <br>p-AKT             |    <br>152-Sm     |    <br>                        |    <br>1:400       |    <br>0.25                |    <br>I        |    <br>D9E           |    <br>Fluidigm     |    <br>3152005A     |
-|    <br>* ki67            |    <br>153-Eu     |    <br>100                     |    <br>1:200       |    <br>0.5                 |    <br>I        |    <br>ki67          |    <br>Biolegend    |    <br>350523       |
-|    <br>CD45              |    <br>154-Sm     |    <br>                        |    <br>1:800       |    <br>0.125               |    <br>S        |    <br>HI30          |    <br>Fluidigm     |    <br>3154001B     |
-|    <br>CD56/NCAM         |    <br>155-Gd     |    <br>                        |    <br>1:100       |    <br>1                   |    <br>S        |    <br>B159          |    <br>Fluidigm     |    <br>3155008B     |
-|    <br>Vimentin          |    <br>156-Gd     |    <br>                        |    <br>1:800       |    <br>0.125               |    <br>I        |    <br>RV202         |    <br>Fluidigm     |    <br>3156023A     |
-|    <br>p-STAT3           |    <br>158-Gd     |    <br>                        |    <br>1:200       |    <br>0.5                 |    <br>I        |    <br>Y705          |    <br>Fluidigm     |    <br>3158005A     |
-|    <br>* CD4             |    <br>159-Tb     |    <br>100                     |    <br>1:400       |    <br>0.25                |    <br>S        |    <br>RPA T4        |    <br>Biolegend    |    <br>300502       |
-|    <br>* MDM2            |    <br>160-Gd     |    <br>100                     |    <br>1:200       |    <br>0.5                 |    <br>I        |    <br>Polyclonal    |    <br>Abcam        |    <br>ab38618      |
-|    <br>* Cytokeratin     |    <br>161-Dy     |    <br>50                      |    <br>1:400       |    <br>0.25                |    <br>I        |    <br>C-11          |    <br>Abcam        |    <br>ab7753       |
-|    <br>* MET             |    <br>162-Dy     |    <br>50                      |    <br>1:300       |    <br>0.32                |    <br>S        |    <br>L6E7          |    <br>CST          |    <br>8741         |
-|    <br>* TP63            |    <br>163-Dy     |    <br>?                       |    <br>1:200       |    <br>0.5                 |    <br>I        |    <br>W15093A       |    <br>Biolegend    |    <br>687202       |
-|    <br>CK7               |    <br>164-Dy     |    <br>                        |    <br>1:400       |    <br>0.25                |    <br>I        |    <br>RCK105        |    <br>Fluidigm     |    <br> 3164020A    |
-|    <br>* total EGFR      |    <br>165-Ho     |    <br>50                      |    <br>1:250       |    <br>0.4                 |    <br>S        |    <br>AY13          |    <br>Biolegend    |    <br>352902       |
-|    <br>CD44              |    <br>166-Er     |    <br>                        |    <br>1:800       |    <br>0.125               |    <br>S        |    <br>BJ18          |    <br>Fluidigm     |    <br>3166001B     |
-|    <br>p-ERK             |    <br>167-Er     |    <br>                        |    <br>1:400       |    <br>0.25                |    <br>I        |    <br>D13.14.4E     |    <br>Fluidigm     |    <br>3167005A     |
-|    <br>CD8               |    <br>168-Er     |    <br>                        |    <br>1:200       |    <br>0.5                 |    <br>S        |    <br> RPA-T8       |    <br>Fluidigm     |    <br>3168002B     |
-|    <br>CD24              |    <br>169-Tm     |    <br>                        |    <br>1:200       |    <br>0.5                 |    <br>S        |    <br>ML5           |    <br>Fluidigm     |    <br>3169004B     |
-|    <br>CD3e              |    <br>170-Yb     |    <br>                        |    <br>1:400       |    <br>0.25                |    <br>S        |    <br>SP34-2        |    <br>Fluidigm     |    <br>3170007B     |
-|    <br>* CD11b           |    <br>171-Yb     |    <br>50                      |    <br>1:400       |    <br>0.25                |    <br>S        |    <br>ICRF44        |    <br>Biolegend    |    <br>301337       |
-|    <br>p-S6              |    <br>172-Yb     |    <br>                        |    <br>1:400       |    <br>0.5                 |    <br>I        |    <br>N7-548        |    <br>Fluidigm     |    <br>3172008A     |
-|    <br>HLA-DR            |    <br>174-Yb     |    <br>                        |    <br>1:400       |    <br>0.5                 |    <br>S        |    <br>L243          |    <br>Fluidigm     |    <br>3172008A     |
-|    <br>CD274/PDL1        |    <br>175-Lu     |    <br>                        |    <br>1:800       |    <br>0.125               |    <br>S        |    <br>29E.2A3       |    <br>Fluidigm     |    <br>3175017B     |
-|    <br>Histone H3        |    <br>176-Yb     |    <br>                        |    <br>1:200       |    <br>0.5                 |    <br>I        |    <br>D1H2          |    <br>Fluidigm     |    <br>3176016A     |
+|     Antigen           |     Isotope    |     Working conc (ug/ml)    |     Dilution    |     Vol in 100 ul rx    |     Level    |     Clone         |     Source       |     Catalog #    |
+|-----------------------|----------------|-----------------------------|-----------------|-------------------------|--------------|-------------------|------------------|------------------|
+|     EpCAM             |     141-Pr     |                             |     1:1600      |     0.0625              |     S        |     9C4           |     Fluidigm     |     3141006B     |
+|     c caspase3        |     142-Nd     |                             |     1:400       |     0.25                |     I        |     D3E9          |     Fluidigm     |     3142004A     |
+|     * TP53            |     143-Nd     |     50                      |     1:200       |     0.25                |     I        |     DO-7          |     Biolegend    |     645802       |
+|     HLA-ABC           |     144-Nd     |                             |     1:800       |     0.125               |     S        |     W6/32         |     Fluidigm     |     3144017B     |
+|     CD31              |     145-Nd     |                             |     1:200       |     0.5                 |     S        |     WM59          |     Fluidigm     |     3145004B     |
+|     Thioredoxin       |     146-Nd     |                             |     1:800       |     0.125               |     I        |     2G11/TRX      |     Fluidigm     |     3146016B     |
+|     b-CAT             |     147-Sm     |                             |     1:800       |     0.125               |     I        |     D10A8         |     Fluidigm     |     3147005A     |
+|     HER2              |     148Nd      |                             |     1:400       |     0.25                |     S        |     29D8          |     Fluidigm     |     3148011A     |
+|     p-STAT6           |     149-Sm     |                             |     1:200       |     0.5                 |     I        |     18/P-Stat6    |     Fluidigm     |     3149004A     |
+|     p-stat5           |     150-Nd     |                             |     1:200       |     0.5                 |     I        |     Y694          |     Fluidigm     |     3150005A     |
+|     * TTF1            |     151-Eu     |     100                     |     1:200       |     0.5                 |     I        |     D2E8          |     CST          |     12373        |
+|     p-AKT             |     152-Sm     |                             |     1:400       |     0.25                |     I        |     D9E           |     Fluidigm     |     3152005A     |
+|     * ki67            |     153-Eu     |     100                     |     1:200       |     0.5                 |     I        |     ki67          |     Biolegend    |     350523       |
+|     CD45              |     154-Sm     |                             |     1:800       |     0.125               |     S        |     HI30          |     Fluidigm     |     3154001B     |
+|     CD56/NCAM         |     155-Gd     |                             |     1:100       |     1                   |     S        |     B159          |     Fluidigm     |     3155008B     |
+|     Vimentin          |     156-Gd     |                             |     1:800       |     0.125               |     I        |     RV202         |     Fluidigm     |     3156023A     |
+|     p-STAT3           |     158-Gd     |                             |     1:200       |     0.5                 |     I        |     Y705          |     Fluidigm     |     3158005A     |
+|     * CD4             |     159-Tb     |     100                     |     1:400       |     0.25                |     S        |     RPA T4        |     Biolegend    |     300502       |
+|     * MDM2            |     160-Gd     |     100                     |     1:200       |     0.5                 |     I        |     Polyclonal    |     Abcam        |     ab38618      |
+|     * Cytokeratin     |     161-Dy     |     50                      |     1:400       |     0.25                |     I        |     C-11          |     Abcam        |     ab7753       |
+|     * MET             |     162-Dy     |     50                      |     1:300       |     0.32                |     S        |     L6E7          |     CST          |     8741         |
+|     * TP63            |     163-Dy     |     ?                       |     1:200       |     0.5                 |     I        |     W15093A       |     Biolegend    |     687202       |
+|     CK7               |     164-Dy     |                             |     1:400       |     0.25                |     I        |     RCK105        |     Fluidigm     |      3164020A    |
+|     * total EGFR      |     165-Ho     |     50                      |     1:250       |     0.4                 |     S        |     AY13          |     Biolegend    |     352902       |
+|     CD44              |     166-Er     |                             |     1:800       |     0.125               |     S        |     BJ18          |     Fluidigm     |     3166001B     |
+|     p-ERK             |     167-Er     |                             |     1:400       |     0.25                |     I        |     D13.14.4E     |     Fluidigm     |     3167005A     |
+|     CD8               |     168-Er     |                             |     1:200       |     0.5                 |     S        |      RPA-T8       |     Fluidigm     |     3168002B     |
+|     CD24              |     169-Tm     |                             |     1:200       |     0.5                 |     S        |     ML5           |     Fluidigm     |     3169004B     |
+|     CD3e              |     170-Yb     |                             |     1:400       |     0.25                |     S        |     SP34-2        |     Fluidigm     |     3170007B     |
+|     * CD11b           |     171-Yb     |     50                      |     1:400       |     0.25                |     S        |     ICRF44        |     Biolegend    |     301337       |
+|     p-S6              |     172-Yb     |                             |     1:400       |     0.5                 |     I        |     N7-548        |     Fluidigm     |     3172008A     |
+|     HLA-DR            |     174-Yb     |                             |     1:400       |     0.5                 |     S        |     L243          |     Fluidigm     |     3172008A     |
+|     CD274/PDL1        |     175-Lu     |                             |     1:800       |     0.125               |     S        |     29E.2A3       |     Fluidigm     |     3175017B     |
+|     Histone H3        |     176-Yb     |                             |     1:200       |     0.5                 |     I        |     D1H2          |     Fluidigm     |     3176016A     |
+
 Table 1. Antibody panel for lung adenocarcinoma. * In-house conjugated antibodies. S = Surface, I = Intracellular
 
 
