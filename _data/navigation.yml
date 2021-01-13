@@ -1,9 +1,22 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
-    url: /about/
+  - title: "Project overview"
+    url: /overview/
+  - title: "Datasets"
+    url: /datasets/
+  - title: "Biorepository"
+    url: /biorep/
+  - title: "Results"
+    url: /results/
+  - title: "Conclusions and Future directions"
+    url: /conclusions/
+  - title: "Publication plan"
+    url: /publicationp/
+
+  # - title: "Posts"
+  #   url: /posts/
+  # - title: "Categories"
+  #   url: /categories/
+  # - title: "Tags"
+  #   url: /tags/
+  # - title: "About"
+  #   url: /about/

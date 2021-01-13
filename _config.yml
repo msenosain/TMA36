@@ -13,14 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 'TMA36 project: Investigating early lung adenocarcinoma behavior through the integration of multiple datasets'
+title: 'TMA36 project'
+subtitle: 'Investigating early lung adenocarcinoma behavior through the integration of multiple datasets'
 email: mariafernanda.senosain@vanderbilt.edu
 description: >- # this means to ignore newlines until "baseurl:"
   This site is hosting all the information related to the TMA36 project and associated datasets.
-#twitter_username: username
 github_username: msenosain
 minimal_mistakes_skin: "contrast"
-search: true
+#search: true
 github: [metadata]
 
 # Build settings
@@ -28,12 +28,17 @@ markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
+
+
+#baseurl: /TMA36 # the subpath of your site, e.g. /blog
+url: "https://msenosain.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+repository: "msenosain/TMA36"
+github_username:  msenosain
+logo: "/assets/images/vulogo.jpg"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -49,55 +54,34 @@ include:
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
+  # - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-paginate
 
 author:
   name   : "Mafe Senosain"
   avatar : "/assets/images/Senosain_Mafe.jpg"
   bio    : "PhD Candidate in Cancer Biology @ Vanderbilt University in the Massion Lab"
+  location : "Nashville, TN, USA"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/msenosain"
+
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/msenosain"
 
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
   # _pages
   - scope:
       path: "_pages"
@@ -105,10 +89,3 @@ defaults:
     values:
       layout: single
       author_profile: true
-
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
