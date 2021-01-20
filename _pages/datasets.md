@@ -14,6 +14,7 @@ title: "Datasets documentation"
 ## **CyTOF** <a name="cytof"></a>
 1. **General info:** Mass Cytometry or CyTOF is a variation of flow cytometry in which antibodies are labeled with heavy metal ion tags rather than fluorochromes. Our antibody panel include the following protein markers:
 
+
 |     Antigen           |     Isotope    |     Working conc (ug/ml)    |     Dilution    |     Vol in 100 ul rx    |     Level    |     Clone         |     Source       |     Catalog #    |
 |-----------------------|----------------|-----------------------------|-----------------|-------------------------|--------------|-------------------|------------------|------------------|
 |     EpCAM             |     141-Pr     |                             |     1:1600      |     0.0625              |     S        |     9C4           |     Fluidigm     |     3141006B     |
@@ -50,6 +51,7 @@ title: "Datasets documentation"
 |     HLA-DR            |     174-Yb     |                             |     1:400       |     0.5                 |     S        |     L243          |     Fluidigm     |     3172008A     |
 |     CD274/PDL1        |     175-Lu     |                             |     1:800       |     0.125               |     S        |     29E.2A3       |     Fluidigm     |     3175017B     |
 |     Histone H3        |     176-Yb     |                             |     1:200       |     0.5                 |     I        |     D1H2          |     Fluidigm     |     3176016A     |
+
 
 Table 1. Antibody panel for lung adenocarcinoma. * In-house conjugated antibodies. S = Surface, I = Intracellular
 

@@ -6,6 +6,10 @@ title: "Results"
 Current results: include all HTML file of R reports classified by research question, these should include a brief interpretation of the results.
 *WORK IN PROGRESS*.
 
+## Clinical data
+* [Summary](http://htmlpreview.github.io/?https://github.com/msenosain/data_integration/blob/master/Reports/pt_data_summary.html) 
+
+
 ## CyTOF 
 * [Summary](http://htmlpreview.github.io/?https://github.com/msenosain/data_analysis_cytof/blob/master/Reports/Summary.html)
 * [Specific research question]()
