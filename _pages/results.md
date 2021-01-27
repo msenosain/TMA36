@@ -11,11 +11,13 @@ Current results: include all HTML file of R reports classified by research quest
 
 
 ## CyTOF 
-* [Summary](http://htmlpreview.github.io/?https://github.com/msenosain/data_analysis_cytof/blob/master/Reports/Summary.html)
-* [Specific research question]()
+* [Summary - Supervised I](http://htmlpreview.github.io/?https://github.com/msenosain/data_analysis_cytof/blob/master/Reports/Supervised_IvsA.html)
+* [Summary - Supervised II](http://htmlpreview.github.io/?https://github.com/msenosain/data_analysis_cytof/blob/master/Reports/Supervised_IvsIvsA.html)
+
 
 ## RNA Seq 
-* [Summary](http://htmlpreview.github.io/?https://github.com/msenosain/data_analysis_rnaseq/blob/master/Reports/Summary.html)
+* [Summary - Supervised I](http://htmlpreview.github.io/?https://github.com/msenosain/data_analysis_rnaseq/blob/master/Reports/Supervised_IvsA.html)
+* [Summary - Supervised II](http://htmlpreview.github.io/?https://github.com/msenosain/data_analysis_rnaseq/blob/master/Reports/Supervised_IvsIvsA.html)
 * [Differential gene expression analysis of tumors expressing high vs low levels of COX2](http://htmlpreview.github.io/?https://github.com/msenosain/data_analysis_rnaseq/blob/master/Reports/DE_COX2.html)
 * [Differential gene expression analysis of tumors expressing high vs low levels of COX1](http://htmlpreview.github.io/?https://github.com/msenosain/data_analysis_rnaseq/blob/master/Reports/DE_COX1.html)
 
