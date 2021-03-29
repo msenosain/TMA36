@@ -7,24 +7,19 @@ Current results: include all HTML file of R reports classified by research quest
 *WORK IN PROGRESS*.
 
 ## Clinical data
-* [Summary](http://htmlpreview.github.io/?https://github.com/msenosain/data_integration/blob/master/Reports/pt_data_summary.html) 
+* [Summary (clinical features and new classification)](http://htmlpreview.github.io/?https://github.com/msenosain/data_integration/blob/master/Reports/pt_data_summary.html) 
 
 
 ## CyTOF 
-* [Summary - Supervised I](http://htmlpreview.github.io/?https://github.com/msenosain/data_analysis_cytof/blob/master/Reports/Supervised_IvsA.html)
-* [Summary - Supervised II](http://htmlpreview.github.io/?https://github.com/msenosain/data_analysis_cytof/blob/master/Reports/Supervised_IvsIvsA.html)
+* [Summary - Supervised analysis: Indolent vs Intermediate vs Aggressive](http://htmlpreview.github.io/?https://github.com/msenosain/data_analysis_cytof/blob/master/Reports/Supervised_IvsIvsA.html)
 
 
 ## RNA Seq 
-* [Summary - Supervised I](http://htmlpreview.github.io/?https://github.com/msenosain/data_analysis_rnaseq/blob/master/Reports/Supervised_IvsA.html)
-* [Summary - Supervised II](http://htmlpreview.github.io/?https://github.com/msenosain/data_analysis_rnaseq/blob/master/Reports/Supervised_IvsIvsA.html)
-* [Differential gene expression analysis of tumors expressing high vs low levels of COX2](http://htmlpreview.github.io/?https://github.com/msenosain/data_analysis_rnaseq/blob/master/Reports/DE_COX2.html)
-* [Differential gene expression analysis of tumors expressing high vs low levels of COX1](http://htmlpreview.github.io/?https://github.com/msenosain/data_analysis_rnaseq/blob/master/Reports/DE_COX1.html)
+* [Summary - Supervised analysis: Indolent vs Intermediate vs Aggressive](http://htmlpreview.github.io/?https://github.com/msenosain/data_analysis_rnaseq/blob/master/Reports/Supervised_IvsIvsA_2.html) - (DEG analysis is indolent vs aggressive only.)
+
 
 ## WES 
-* [Summary](http://htmlpreview.github.io/?https://github.com/msenosain/data_analysis_rnaseq/blob/master/Reports/Summary_WES.html)
-
-
+* [Summary - Mutational analysis (all samples) and group comparisons](http://htmlpreview.github.io/?https://github.com/msenosain/data_analysis_rnaseq/blob/master/Reports/Summary_WES.html)
 
 
 
